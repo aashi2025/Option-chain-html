@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nifty Option Chain</title>
+  <style>
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: center; }
+    .highlight { background-color: #d1ffd1; }
+  </style>
+</head>
+<body>
+  <h1>Nifty Option Chain</h1>
+  <table>
+    <tr>
+      <th>CE OI</th><th>CE बदलाव</th><th>CE LTP</th><th>स्ट्राइक प्राइस</th><th>PE LTP</th>
+    </tr>
+    <tr>
+      <td>15,200</td><td>+800</td><td>112</td><td>22300</td><td>95</td>
+    </tr>
+    <tr class="highlight">
+      <td>18,400</td><td>+1,200</td><td>78</td><td>22400</td><td>105</td>
+    </tr>
+  </table>
+</body>
+</html>
